@@ -176,3 +176,36 @@ h1{
     position: relative !important;
     /* color: red !important; */
 }
+
+
+
+
+.gallery{
+    /* height: 90%; */
+    width: 90%;
+    
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    justify-content:space-around;
+    padding: 19px;
+    row-gap: 94px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.gallery img{
+    width: 300px;
+    height: 400px;
+    border-radius: 13px;
+    object-fit: cover;
+    border: none;
+    outline:none ;
+    overflow: hi;
+}
+.hoz{
+    width: 420px !important;
+}
+.type2{
+    overflow: hidden !important;
+}

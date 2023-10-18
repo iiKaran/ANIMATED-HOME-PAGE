@@ -33,9 +33,12 @@ gsap.from(".box",{
     x:-2000, 
     rotate:360, 
     duration:1.2, 
-    delay:.5,
+    delay:.2,
     scrollTrigger:".box",
     stagger:.2,
+    // repeat:-1, 
+    // yoyo:true
+
 })
 
 gsap.from(".three-left-img",{
@@ -62,3 +65,22 @@ gsap.from(".right-sub-bottom",{
         start:'top 50%'
     }
 })
+
+const tli = gsap.timeline(); 
+gsap.from(".type1",{
+    delay:.2,
+    scale:0, 
+    opacity:0,
+    duration:2, 
+    stagger:.3,
+    scrollTrigger:".type1"
+})
+gsap.from(".type2",{
+    delay:1,
+    scale:0, 
+    duration:3, 
+    opacity:0,
+    stagger:.3,
+    scrollTrigger:".type1"
+})
+
